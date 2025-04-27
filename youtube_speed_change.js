@@ -8,9 +8,13 @@ function setVideoSpeed(speed){
 
 document.addEventListener('keydown', (event)=>{
     if(event.key === '+'){
-        videoSpeed += 0.25;
+        if (videoSpeed<=10) {
+            videoSpeed += 0.25;
+        }
     } else if(event.key === '-'){
-        videoSpeed -= 0.25;
+        if (videoSpeed>=0.25) {
+            videoSpeed -= 0.25;
+        }
     }
     setVideoSpeed(videoSpeed);
 })
