@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Speed Booster",
+    "version": "1.0",
+    "description": "Set YouTube video playback speed beyond 2x",
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["youtube_speed_change.js"]
+      }
+    ],
+    "permissions": []
+  }
+  
