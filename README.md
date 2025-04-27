@@ -12,23 +12,15 @@ This script allows you to easily adjust the playback speed of YouTube videos usi
 
 Follow these steps to install the YouTube Video Speed Enhancer script in Chrome:
 
-### Step 1: Install a User Script Manager
-To use this script, you need to install a user script manager extension for Chrome. We recommend using [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
+### Step 1: Download the code
+- git clone https://github.com/AnisHerdev/youtube-video-speed-enhancer.git
+- or if you don't have git, then just download the zip file and extract it
 
-1. Go to the Chrome Web Store.
-2. Search for "Tampermonkey" or "Violentmonkey".
-3. Click "Add to Chrome" and follow the installation instructions.
+### Step 2: Install on chrome
+1. First click on extension and then click on manage extensions.
+2. Here click on Load unpacked.
+3. Then select the folder you just downloaded.
 
-### Step 2: Add the Script
-1. Open the user script manager extension (Tampermonkey or Violentmonkey).
-2. Click on "Create a new script" or "Add a new script".
-3. Copy the contents of the `youtube_speed_change.js` file into the editor.
-4. Save the script.
-
-### Step 3: Enable the Script
-1. Ensure the script is enabled in the user script manager.
-2. Open YouTube in Chrome.
-3. The script will automatically run on YouTube pages.
 
 ## Usage
 
