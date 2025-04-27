@@ -16,14 +16,14 @@ Follow these steps to install the YouTube Video Speed Enhancer script in Chrome:
 ```bash 
 git clone https://github.com/AnisHerdev/youtube-video-speed-enhancer.git
 ```
-- or if you don't have git, then just download the zip file and extract it
+- Or if you don't have git installed, then just download the zip file and extract it.
 
 ### Step 2: Install on chrome
 1. First click on extension and then click on manage extensions.
 2. Here click on Load unpacked.
 3. Then select the folder you just downloaded.
 
-### Step 3: Enjoy the freedom of choosing your own speed for the videos
+### Step 3: Enjoy the freedom of choosing your own speed for the videos 😁😀
 
 ## Usage
 
