@@ -10,13 +10,12 @@
         }
     ],
     "action": {
-    "default_popup": "popup.html",
     "default_icon": {
         "16": "youtube_video_speed_icon.png",
         "48": "youtube_video_speed_icon.png",
         "128": "youtube_video_speed_icon.png"
     }
     },
-    "permissions": ["tabs", "scripting"]
+    "permissions": []
   }
   
