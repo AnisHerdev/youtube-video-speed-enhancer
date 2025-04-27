@@ -13,7 +13,8 @@ This script allows you to easily adjust the playback speed of YouTube videos usi
 Follow these steps to install the YouTube Video Speed Enhancer script in Chrome:
 
 ### Step 1: Download the code
-```bash git clone https://github.com/AnisHerdev/youtube-video-speed-enhancer.git
+```bash 
+git clone https://github.com/AnisHerdev/youtube-video-speed-enhancer.git
 ```
 - or if you don't have git, then just download the zip file and extract it
 
