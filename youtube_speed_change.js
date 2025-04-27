@@ -1,6 +1,6 @@
 //main function that updates the speed of the video
-var videoSpeed = 1.0; // initial speed
-var speedJump = 0.25; // default speed increment
+var videoSpeed = window.videoSpeed || 1.0; // initial speed
+var speedJump = window.speedJump || 0.25; // default speed increment
 
 function setVideoSpeed(speed){
     // const video = document.querySelector('video');
