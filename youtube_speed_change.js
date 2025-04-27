@@ -18,11 +18,12 @@ document.addEventListener('keydown', (event)=>{
         if (videoSpeed>10) {
             videoSpeed = 10; // max speed limit
         }
+        setVideoSpeed(videoSpeed);
     } else if(event.key === '-'){
         videoSpeed -= speedJump;
         if (videoSpeed<0) {
             videoSpeed = 0; // min speed limit
         }
+        setVideoSpeed(videoSpeed);
     }
-    setVideoSpeed(videoSpeed);
 })

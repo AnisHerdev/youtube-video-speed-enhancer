@@ -4,19 +4,19 @@
     "version": "1.0",
     "description": "Set YouTube video playback speed beyond 2x",
     "content_scripts": [
-      {
-        "matches": ["*://www.youtube.com/*"],
-        "js": ["youtube_speed_change.js"]
-      }
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "js": ["youtube_speed_change.js"]
+        }
     ],
     "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "youtube_video_speed_icon.png",
-      "48": "youtube_video_speed_icon.png",
-      "128": "youtube_video_speed_icon.png"
-        }
+        "16": "youtube_video_speed_icon.png",
+        "48": "youtube_video_speed_icon.png",
+        "128": "youtube_video_speed_icon.png"
+    }
     },
-    "permissions": []
+    "permissions": ["tabs", "scripting"]
   }
   
