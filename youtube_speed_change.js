@@ -1,6 +1,6 @@
 //main function that updates the speed of the video
-var videoSpeed = window.videoSpeed || 1.0; // initial speed
-var speedJump = window.speedJump || 0.25; // default speed increment
+window.videoSpeed = 1.0; // initial speed
+window.speedJump = 0.25; // default speed increment
 
 function setVideoSpeed(speed){
     // const video = document.querySelector('video');
@@ -14,16 +14,17 @@ function setVideoSpeed(speed){
 
 document.addEventListener('keydown', (event)=>{
     if(event.key === '+'){
-        videoSpeed += speedJump;
-        if (videoSpeed>10) {
-            videoSpeed = 10; // max speed limit
+        window.videoSpeed += window.speedJump;
+        if (window.videoSpeed>10) {
+            window.videoSpeed = 10; // max speed limit
         }
-        setVideoSpeed(videoSpeed);
+        setVideoSpeed(window.videoSpeed);
     } else if(event.key === '-'){
-        videoSpeed -= speedJump;
-        if (videoSpeed<0) {
-            videoSpeed = 0; // min speed limit
+        window.videoSpeed -= window.speedJump;
+        if (window.videoSpeed<0) {
+            window.videoSpeed = 0; // min speed limit
         }
-        setVideoSpeed(videoSpeed);
+        setVideoSpeed(window.videoSpeed);
     }
 })
+

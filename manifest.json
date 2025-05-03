@@ -17,6 +17,6 @@
         "128": "youtube_video_speed_icon.png"
     }
     },
-    "permissions": ["tabs", "scripting"]
+    "permissions": ["activeTab", "scripting"]
   }
   
