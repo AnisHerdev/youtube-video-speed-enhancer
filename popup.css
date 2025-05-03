@@ -6,7 +6,7 @@ body {
   }
   
   h1 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
   
@@ -32,3 +32,6 @@ body {
     background-color: rgb(24, 219, 163);
   }
   
+.lables{
+  font-weight: bold;
+}
