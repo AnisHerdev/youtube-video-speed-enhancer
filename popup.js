@@ -122,6 +122,7 @@ document.getElementById('speedInput').addEventListener("change", async () => {
   chrome.scripting.executeScript({
       target: { tabId: tab.id },
       func: (newSpeed) => {
+          window.videoSpeed = newSpeed;
           const videos = document.querySelectorAll('video');
           videos.forEach(video => {
               video.playbackRate = newSpeed;
