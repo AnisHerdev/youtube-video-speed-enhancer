@@ -3,6 +3,11 @@
     "name": "YouTube Speed Booster",
     "version": "1.0",
     "description": "Set YouTube video playback speed beyond 2x",
+    "icons": {
+        "16": "youtube_video_speed_icon.png",
+        "48": "youtube_video_speed_icon.png",
+        "128": "youtube_video_speed_icon.png"
+    },
     "content_scripts": [
         {
             "matches": ["*://www.youtube.com/*"],
@@ -16,6 +21,6 @@
         "128": "youtube_video_speed_icon.png"
     }
     },
-    "permissions": []
+    "permissions": ["activeTab", "scripting"]
   }
   
