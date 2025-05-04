@@ -5,12 +5,6 @@ body {
     background-color: rgb(24, 163, 163);
   }
 
-.popup-container{
-  /* color-scheme: light dark; */
-  background-color: rgb(24, 163, 163);
-  border-radius: 50px;
-}
-
 .inputValues{
   border: solid 2px black;
   border-radius: 10px;
@@ -22,9 +16,10 @@ body {
 h1 {
   font-size: 22px;
   margin-bottom: 10px;
+  margin-top: 2px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 input {
