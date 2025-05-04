@@ -4,9 +4,9 @@
     "version": "1.0",
     "description": "Set YouTube video playback speed beyond 2x",
     "icons": {
-        "16": "youtube_video_speed_icon.png",
-        "48": "youtube_video_speed_icon.png",
-        "128": "youtube_video_speed_icon.png"
+        "16": "assets/youtube_video_speed_icon.png",
+        "48": "assets/youtube_video_speed_icon.png",
+        "128": "assets/youtube_video_speed_icon.png"
     },
     "content_scripts": [
         {
@@ -16,9 +16,9 @@
     ],
     "action": {
     "default_icon": {
-        "16": "youtube_video_speed_icon.png",
-        "48": "youtube_video_speed_icon.png",
-        "128": "youtube_video_speed_icon.png"
+        "16": "assets/youtube_video_speed_icon.png",
+        "48": "assets/youtube_video_speed_icon.png",
+        "128": "assets/youtube_video_speed_icon.png"
     }
     },
     "permissions": ["activeTab", "scripting"]
