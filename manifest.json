@@ -15,6 +15,7 @@
         }
     ],
     "action": {
+    "default_popup": "popup.html",    
     "default_icon": {
         "16": "assets/youtube_video_speed_icon.png",
         "48": "assets/youtube_video_speed_icon.png",
