@@ -7,6 +7,7 @@ This script allows you to easily adjust the playback speed of YouTube videos usi
 - Increase video speed with the `+` key.
 - Decrease video speed with the `-` key.
 - Speed range: 0.0x to 10.0x.
+- Change the speed jump rate using the popup
 
 ## Installation Guide
 
@@ -31,11 +32,12 @@ git clone https://github.com/AnisHerdev/youtube-video-speed-enhancer.git
 - Press the `+` key to increase the video speed by 0.25x (default).
 - Press the `-` key to decrease the video speed by 0.25x (default).
 - The speed is capped between 0.0x and 10.0x.
+- Open the popup and change the speed jump rate which is 0.25x by default.
 
 ## Customization
 
-You can customize the default speed and speed increment by modifying the following variables in the script:
+You can customize the default speed and speed increment by modifying the following variables in the script (youtube_speed_change.js):
 
 ```javascript
-var videoSpeed = 1.0; // Default playback speed
-var speedJump = 0.25; // Speed increment/decrement
+window.videoSpeed = 1.0; // Default playback speed
+window.speedJump = 0.25; // Speed increment/decrement
