@@ -13,7 +13,7 @@ This script allows you to easily adjust the playback speed of YouTube videos usi
 
 Below is a screenshot of the popup interface where you can adjust the speed jump rate:
 
-![Popup Screenshot](./assets/popupScreenshot.png)
+![Popup Screenshot](./assets/popupScreenShot.png)
 
 ## Installation Guide
 
