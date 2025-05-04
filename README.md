@@ -9,6 +9,12 @@ This script allows you to easily adjust the playback speed of YouTube videos usi
 - Speed range: 0.0x to 10.0x.
 - Change the speed jump rate using the popup
 
+## Popup Screenshot
+
+Below is a screenshot of the popup interface where you can adjust the speed jump rate:
+
+![Popup Screenshot](./assets/popupScreenshot.png)
+
 ## Installation Guide
 
 Follow these steps to install the YouTube Video Speed Enhancer script in Chrome:
