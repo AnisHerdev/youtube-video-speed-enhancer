@@ -10,13 +10,21 @@
     <h1>Speed Booster
     <img src="assets/youtube_video_speed_icon.png" alt="Icon" class="icon" width="30px">
     </h1>
-    <label for="speedInput" class="lables">Set Speed:</label>
+    <label for="speedInput" class="lables">Set Speed:</label><br>
+    <button id="decreaseSpeed" class="decrease">-</button>
     <input type="number" class="inputValues" id="speedInput" step="0.25" min="0" max="10" value="">
-    
-    <label for="jumpInput" class="lables">Set Jump Rate:</label>
+    <button id="increaseSpeed" class="increase">+</button>
+    <br>
+    <label for="jumpInput" class="lables">Set Jump Rate:</label><br>
+    <button id="decreaseJump" class="decrease">-</button>
     <input type="number" class="inputValues" id="jumpInput" step="0.05" min="0.05" max="5" value="">
+    <button id="increaseJump" class="increase">+</button>
+    <br>
     
-    <button id="resetSpeed" >Reset Speed</button>
+    <input type="range" id="speedRange" min="0" max="10" step="0.25" value="1">
+<span id="speedDisplay">1.00</span>
+
+    <button id="resetSpeed" style="width:100%" >Reset Speed</button>
     <script src="popup.js"></script>
 </body>
 </html>
